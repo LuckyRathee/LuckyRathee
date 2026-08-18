@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7C3AED,100:D97757&height=220&section=header&text=LUCKY&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C[...]"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7C3AED,100:D97757&height=220&section=header&text=LUCKY&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20[...]"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems...;Archite[...]
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems...;Archite[...]">
 </a>
 
 <br>
@@ -159,12 +159,9 @@ Real-time crop and soil condition monitoring system built on embedded hardware.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=LuckyRathee&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&icon_color=7C3AED&text_col[...]
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuckyRathee&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&text_color=c9d1d[...]
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=LuckyRathee&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=D97757&currStreakLabel=D97757" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=LuckyRathee&theme=react-dark&hide_border=true&bg_color=0D1117&color=D97757&line=7C3AED&point=ffffff" width="100%"/>
+<p align="center">
+  <img src="https://github.com/users/LuckyRathee/contributions" alt="LuckyRathee's GitHub contributions" />
+</p>
 
 </div>
 
