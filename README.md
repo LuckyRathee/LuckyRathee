@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7C3AED,100:D97757&height=220&section=header&text=LUCKY&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C%20Automation%20Architect&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:7C3AED,100:D97757&height=220&section=header&text=LUCKY&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=AI%20Engineer%20%7C[...]"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems...;Architecting+GTM+automation+pipelines...;Orchestrating+RAG+%2B+LLM+workflows...;n8n+%C2%B7+Make.com+%C2%B7+Apify+%C2%B7+LangChain;Mohali%2C+Punjab+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=D97757&center=true&vCenter=true&width=650&lines=Building+agentic+AI+systems...;Archite[...]
 </a>
 
 <br>
@@ -33,7 +33,7 @@ $ whoami
 
 ## 🧠 About Me
 
-I design and ship **agentic AI infrastructure** — systems where LLMs don't just chat, they *act*: sourcing leads, enriching data, generating outreach, and routing decisions autonomously. My work sits at the intersection of **LLM orchestration**, **workflow automation**, and **production-grade engineering**.
+I design and ship **agentic AI infrastructure** — systems where LLMs don't just chat, they *act*: sourcing leads, enriching data, generating outreach, and routing decisions autonomously. My work[...]
 
 Currently building GTM automation pipelines at **NimitAI**, and shipping side projects that push my skills across voice AI, cultural tech, and full-stack systems.
 
@@ -159,8 +159,8 @@ Real-time crop and soil condition monitoring system built on embedded hardware.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=LuckyRathee&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&icon_color=7C3AED&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuckyRathee&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&text_color=c9d1d9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=LuckyRathee&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&icon_color=7C3AED&text_col[...]
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LuckyRathee&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=D97757&text_color=c9d1d[...]
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=LuckyRathee&theme=radical&hide_border=true&background=0D1117&ring=7C3AED&fire=D97757&currStreakLabel=D97757" />
 
@@ -205,3 +205,5 @@ Real-time crop and soil condition monitoring system built on embedded hardware.
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:D97757,50:7C3AED,100:0F172A&height=100&section=footer" width="100%"/>
+
+<!-- contribution-test: 2026-08-18 by LuckyRathee -->
