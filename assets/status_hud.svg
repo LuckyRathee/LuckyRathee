@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 70" width="100%" height="70">
+  <defs>
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a101d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0a101d" />
+    </linearGradient>
+  </defs>
+  <style>
+    .font-mono { font-family: 'SF Mono', 'Fira Code', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    @keyframes radarPulse {
+      0% { r: 4px; opacity: 1; stroke-width: 1px; }
+      100% { r: 14px; opacity: 0; stroke-width: 0.5px; }
+    }
+    .radar-ring { animation: radarPulse 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+  </style>
+
+  <rect width="878" height="68" x="1" y="1" rx="12" fill="url(#hudBg)" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
+
+  <!-- Metric 1: System Status -->
+  <g transform="translate(30, 24)">
+    <circle class="radar-ring" cx="10" cy="11" r="4" fill="none" stroke="#10b981" />
+    <circle cx="10" cy="11" r="4" fill="#10b981" />
+    <text class="font-sans" x="26" y="9" font-size="11" font-weight="700" fill="#34d399">SYSTEM STATUS</text>
+    <text class="font-mono" x="26" y="24" font-size="11" fill="#e2e8f0">Autonomous &amp; Online</text>
+  </g>
+
+  <!-- Divider 1 -->
+  <line x1="230" y1="15" x2="230" y2="55" stroke="#334155" stroke-width="1" />
+
+  <!-- Metric 2: Agent Swarm -->
+  <g transform="translate(255, 24)">
+    <text class="font-sans" x="0" y="9" font-size="11" font-weight="700" fill="#38bdf8">AGENTIC SKILLS</text>
+    <text class="font-mono" x="0" y="24" font-size="11" fill="#e2e8f0">27 MCP Tool Actions</text>
+  </g>
+
+  <!-- Divider 2 -->
+  <line x1="440" y1="15" x2="440" y2="55" stroke="#334155" stroke-width="1" />
+
+  <!-- Metric 3: Vector & RAG Ingestion -->
+  <g transform="translate(465, 24)">
+    <text class="font-sans" x="0" y="9" font-size="11" font-weight="700" fill="#c084fc">VECTOR RETRIEVAL</text>
+    <text class="font-mono" x="0" y="24" font-size="11" fill="#e2e8f0">Supabase pgvector · Groq</text>
+  </g>
+
+  <!-- Divider 3 -->
+  <line x1="660" y1="15" x2="660" y2="55" stroke="#334155" stroke-width="1" />
+
+  <!-- Metric 4: Research -->
+  <g transform="translate(685, 24)">
+    <text class="font-sans" x="0" y="9" font-size="11" font-weight="700" fill="#fbbf24">ACCEPTED RESEARCH</text>
+    <text class="font-mono" x="0" y="24" font-size="11" fill="#e2e8f0">STAI 2026 · AIR · ITAI</text>
+  </g>
+</svg>
+

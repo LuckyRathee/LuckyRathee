@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="100%" height="260">
+  <defs>
+    <!-- Card Gradients -->
+    <linearGradient id="flowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="supervisorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="agentGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="agentGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+
+    <linearGradient id="agentGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+
+    <linearGradient id="agentGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+
+    <!-- Flow Paths for Data Pulses -->
+    <path id="path1" d="M 440 85 L 120 160" />
+    <path id="path2" d="M 440 85 L 330 160" />
+    <path id="path3" d="M 440 85 L 550 160" />
+    <path id="path4" d="M 440 85 L 760 160" />
+
+    <filter id="packetGlow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .pulse-line {
+      stroke-dasharray: 6 6;
+      animation: dashMove 1.5s linear infinite;
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -24; }
+    }
+    @keyframes cardPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+    }
+    .main-card { transform-origin: 440px 50px; animation: cardPulse 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Container -->
+  <rect width="878" height="258" x="1" y="1" rx="16" fill="url(#flowBg)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Section Title -->
+  <text class="mono" x="30" y="32" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="2">
+    ◈ AGENTIC EXECUTION TOPOLOGY · MULTI-AGENT ORCHESTRATION
+  </text>
+  <text class="mono" x="850" y="32" text-anchor="end" font-size="11" font-weight="600" fill="#64748b">
+    MCP 2.0 PROTOCOL READY
+  </text>
+
+  <!-- Connecting Lines -->
+  <g stroke="#334155" stroke-width="2">
+    <path d="M 440 85 L 120 160" class="pulse-line" stroke="#06b6d4" />
+    <path d="M 440 85 L 330 160" class="pulse-line" stroke="#8b5cf6" />
+    <path d="M 440 85 L 550 160" class="pulse-line" stroke="#f59e0b" />
+    <path d="M 440 85 L 760 160" class="pulse-line" stroke="#10b981" />
+  </g>
+
+  <!-- Animated Data Packet Particles traveling along paths -->
+  <circle r="4" fill="#38bdf8" filter="url(#packetGlow)">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#path1" />
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#c084fc" filter="url(#packetGlow)">
+    <animateMotion dur="2.4s" repeatCount="indefinite">
+      <mpath href="#path2" />
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#fcd34d" filter="url(#packetGlow)">
+    <animateMotion dur="2.2s" repeatCount="indefinite">
+      <mpath href="#path3" />
+    </animateMotion>
+  </circle>
+  <circle r="4" fill="#34d399" filter="url(#packetGlow)">
+    <animateMotion dur="1.8s" repeatCount="indefinite">
+      <mpath href="#path4" />
+    </animateMotion>
+  </circle>
+
+  <!-- Central Orchestrator / Supervisor Agent Node -->
+  <g class="main-card">
+    <rect x="300" y="45" width="280" height="52" rx="10" fill="#0f172a" stroke="url(#supervisorGrad)" stroke-width="2" />
+    <circle cx="325" cy="71" r="8" fill="#8b5cf6" />
+    <text class="sans" x="345" y="66" font-size="13" font-weight="700" fill="#ffffff">Hierarchical Supervisor Agent</text>
+    <text class="mono" x="345" y="82" font-size="10.5" fill="#94a3b8">Hermes · Claude · Reasoning Loop</text>
+  </g>
+
+  <!-- Sub-Agent 1: Scraper & Browser -->
+  <g transform="translate(30, 160)">
+    <rect width="180" height="74" rx="10" fill="#090d16" stroke="url(#agentGrad1)" stroke-width="1.5" />
+    <text class="sans" x="15" y="26" font-size="12" font-weight="700" fill="#38bdf8">🕷️ Headless Scraper</text>
+    <text class="mono" x="15" y="44" font-size="10" fill="#94a3b8">Playwright · Apify</text>
+    <text class="mono" x="15" y="60" font-size="9.5" fill="#64748b">27-Skill Extraction</text>
+  </g>
+
+  <!-- Sub-Agent 2: RAG & Vector Engine -->
+  <g transform="translate(240, 160)">
+    <rect width="180" height="74" rx="10" fill="#090d16" stroke="url(#agentGrad2)" stroke-width="1.5" />
+    <text class="sans" x="15" y="26" font-size="12" font-weight="700" fill="#c084fc">🧠 RAG &amp; Vector Core</text>
+    <text class="mono" x="15" y="44" font-size="10" fill="#94a3b8">Supabase pgvector</text>
+    <text class="mono" x="15" y="60" font-size="9.5" fill="#64748b">Gemini · Groq Ingestion</text>
+  </g>
+
+  <!-- Sub-Agent 3: MCP OS Actuator -->
+  <g transform="translate(460, 160)">
+    <rect width="180" height="74" rx="10" fill="#090d16" stroke="url(#agentGrad3)" stroke-width="1.5" />
+    <text class="sans" x="15" y="26" font-size="12" font-weight="700" fill="#fbbf24">⚡ MCP OS Actuation</text>
+    <text class="mono" x="15" y="44" font-size="10" fill="#94a3b8">ULTRON v1 · STT Voice</text>
+    <text class="mono" x="15" y="60" font-size="9.5" fill="#64748b">OS-Level Automation</text>
+  </g>
+
+  <!-- Sub-Agent 4: Deployment & Pipelines -->
+  <g transform="translate(670, 160)">
+    <rect width="180" height="74" rx="10" fill="#090d16" stroke="url(#agentGrad4)" stroke-width="1.5" />
+    <text class="sans" x="15" y="26" font-size="12" font-weight="700" fill="#34d399">🚀 Pipeline &amp; GTM</text>
+    <text class="mono" x="15" y="44" font-size="10" fill="#94a3b8">n8n · Cloud Run · EC2</text>
+    <text class="mono" x="15" y="60" font-size="9.5" fill="#64748b">Tailscale Funnel · Caddy</text>
+  </g>
+</svg>
+
